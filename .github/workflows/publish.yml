@@ -1,32 +1,42 @@
 name: "Publish"
 
-on: 
+on:
   release:
     types: [published]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     strategy:
-        matrix:
-          target: ['ai.server', 'botmux', 'double-take', 'double-take-beta', 'shelley']
-        fail-fast: false
+      matrix:
+        target: ['ai.server', 'botmux', 'double-take', 'double-take-beta', 'shelley']
+      fail-fast: false
     steps:
       - name: Free disk space
         if: matrix.target == 'ai.server'
         run: |
           curl -L -k https://raw.githubusercontent.com/apache/flink/master/tools/azure-pipelines/free_disk_space.sh | bash
+
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Lowercase image owner
+        run: echo "OWNER_LC=${GITHUB_REPOSITORY_OWNER,,}" >> "$GITHUB_ENV"
+
       - name: Login to GHCR
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build
+
+      - name: Build and push
         uses: home-assistant/builder@master
         with:
           args: |
@@ -35,4 +45,4 @@ jobs:
             --no-latest \
             -i hassio-addon-${{ matrix.target }}-{arch} \
             --target ${{ matrix.target }} \
-            --docker-hub ghcr.io/${{ secrets.DOCKER_USERNAME }}
+            --docker-hub ghcr.io/${{ env.OWNER_LC }}
