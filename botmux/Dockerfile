@@ -25,7 +25,7 @@ RUN set -eux; \
       *) echo "Unsupported architecture: ${BUILD_ARCH}" && exit 1 ;; \
     esac; \
     curl -fsSL -o /usr/bin/botmux \
-      "https://github.com/NH917/botmux/releases/download/${BOTMUX_VERSION}/botmux-linux-${BOTMUX_ARCH}"; \
+      "https://github.com/nh917/botmux/releases/download/${BOTMUX_VERSION}/botmux-linux-${BOTMUX_ARCH}"; \
     chmod +x /usr/bin/botmux
 
 ADD --link https://github.com/hassio-addons/bashio/archive/v0.16.3.tar.gz /tmp/bashio.tar.gz

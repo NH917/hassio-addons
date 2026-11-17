@@ -1,8 +1,8 @@
 # svk's Add-ons repository
 
 <!-- badges:start -->
-[![GitHub stars](https://img.shields.io/github/stars/NH917/hassio-addons?style=flat-square)](https://github.com/NH917/hassio-addons/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/NH917/hassio-addons?style=flat-square)](https://github.com/NH917/hassio-addons/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/nh917/hassio-addons?style=flat-square)](https://github.com/nh917/hassio-addons/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/nh917/hassio-addons?style=flat-square)](https://github.com/nh917/hassio-addons/commits/main)
 <!-- badges:end -->
 
 
@@ -10,9 +10,9 @@
 
 Click on the button below:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FNH917%2Fhassio-addons)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fnh917%2Fhassio-addons)
 
-Or, in your Home Assistant, navigate to _Configuration_ > _Add-ons, Backups & Supervisor_ > _Add-on Store_ > _..._ > _Repositories_ and add `https://github.com/NH917/hassio-addons` to the list.
+Or, in your Home Assistant, navigate to _Configuration_ > _Add-ons, Backups & Supervisor_ > _Add-on Store_ > _..._ > _Repositories_ and add `https://github.com/nh917/hassio-addons` to the list.
 
 ## Add-ons provided by this repository
 

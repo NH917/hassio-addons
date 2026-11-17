@@ -1,4 +1,4 @@
-## [1.13.11.8](https://github.com/NH917/double-take/compare/v1.13.11.7.1...v1.13.11.8)
+## [1.13.11.8](https://github.com/nh917/double-take/compare/v1.13.11.7.1...v1.13.11.8)
 
 ### Bug Fixes
 
@@ -10,26 +10,26 @@
 * multi-arch static binaries for linux
 
 
-## [1.13.11.7.1](https://github.com/NH917/double-take/compare/v1.13.11.6.1...v1.13.11.7.1)
+## [1.13.11.7.1](https://github.com/nh917/double-take/compare/v1.13.11.6.1...v1.13.11.7.1)
 
 1. Reintroduces support for the arm/v7 architecture
 2. Removes unused code. Reduce docker container size
 3. Performance optimizations have been implemented for better efficiency
 4. Option to trace SQL queries has been added for better debugging and tracking.
 
-## [1.13.11.6.1](https://github.com/NH917/double-take/compare/v1.13.11.6...v1.13.11.6.1)
+## [1.13.11.6.1](https://github.com/nh917/double-take/compare/v1.13.11.6...v1.13.11.6.1)
 
 ### Bug Fixes
 
 * [BUG] fix top menu
 
-## [1.13.11.6](https://github.com/NH917/double-take/compare/v1.13.11.5...v1.13.11.6)
+## [1.13.11.6](https://github.com/nh917/double-take/compare/v1.13.11.5...v1.13.11.6)
 
 ### Changes
 
 * [BUG/Feature] added ability to disable ip checks in double-take hassio addon
 
-## [1.13.11.5](https://github.com/NH917/double-take/compare/v1.13.11.4...v1.13.11.5)
+## [1.13.11.5](https://github.com/nh917/double-take/compare/v1.13.11.4...v1.13.11.5)
 
 ### Bug Fixes
 
@@ -40,7 +40,7 @@
 * Logs button in top menu bar
 
 
-## [1.13.11.4](https://github.com/NH917/double-take/compare/v1.13.11.3...v1.13.11.4)
+## [1.13.11.4](https://github.com/nh917/double-take/compare/v1.13.11.3...v1.13.11.4)
 
 1. `[PATCH 01/30] Apply fixes`: Changes made in the 'storage.controller.js' file to format the 'db.prepare' method.             
 2. `[PATCH 02/30] Update README.md`: Added a comment about quotes in the `chat_id` field in `README.md`.                                             
@@ -53,59 +53,59 @@
 9. `[PATCH 09/30] Upgrade docker/metadata-action from version 4 to 5`     
 10. `[PATCH 10/30] Upgrade docker/setup-buildx-action from version 2 to 3`
 
-## [1.13.11.3](https://github.com/NH917/double-take/compare/v1.13.11.2...v1.13.11.3)
+## [1.13.11.3](https://github.com/nh917/double-take/compare/v1.13.11.2...v1.13.11.3)
 
 ### Bug Fixes
 
 * [BUG] Unable to delete images from Train Menu #102
 
-## [1.13.11.*](https://github.com/NH917/double-take/compare/v1.13.11...v1.13.11.2)
+## [1.13.11.*](https://github.com/nh917/double-take/compare/v1.13.11...v1.13.11.2)
 
 * Bug fixes
 
-## [1.13.11](https://github.com/NH917/double-take/compare/v1.13.10...v1.13.11)
+## [1.13.11](https://github.com/nh917/double-take/compare/v1.13.10...v1.13.11)
 
 * Some improves for arm64 arch (probably fixed a "timeout" error in ai.server detector)
 * Refactor: a lot of invisible improvements
 * Add sublabel score to sublabel API endpoint for frigate
 * Bump depends versions 
 
-## [1.13.10](https://github.com/NH917/double-take/compare/v1.13.9...v1.13.10)
+## [1.13.10](https://github.com/nh917/double-take/compare/v1.13.9...v1.13.10)
 
 * Bugfix: correct handle timezones
 * Refactor: a lot of small invisible improvements
 
-## [1.13.9](https://github.com/NH917/double-take/compare/v1.13.8...v1.13.9)
+## [1.13.9](https://github.com/nh917/double-take/compare/v1.13.8...v1.13.9)
 
 Bugfix: Refactor logger.controller.js to check for existence of log files before reading them
 
-## [1.13.8](https://github.com/NH917/double-take/compare/v1.13.7...v1.13.8)
+## [1.13.8](https://github.com/nh917/double-take/compare/v1.13.7...v1.13.8)
 
 Bugfix: load and execute openCV only if necessary
 
-## [1.13.7](https://github.com/NH917/double-take/compare/v1.13.6...v1.13.7)
+## [1.13.7](https://github.com/nh917/double-take/compare/v1.13.6...v1.13.7)
 
 AI.Server: Log "no face found" as info #53 (@marq24)
 
-## [1.13.6](https://github.com/NH917/double-take/compare/v1.13.5...v1.13.6)
+## [1.13.6](https://github.com/nh917/double-take/compare/v1.13.5...v1.13.6)
 
 bugfixes
 
-## [1.13.5](https://github.com/NH917/double-take/compare/v1.13.4...v1.13.5)
+## [1.13.5](https://github.com/nh917/double-take/compare/v1.13.4...v1.13.5)
 
 added device_tracker object to mqtt for each recognized person
 
-## [1.13.4](https://github.com/NH917/double-take/compare/v1.13.3...v1.13.4)
+## [1.13.4](https://github.com/nh917/double-take/compare/v1.13.3...v1.13.4)
 
 * Return support of arm(64) architectures
 * bug fixes (again)
 
-## [1.13.3](https://github.com/NH917/double-take/compare/v1.13.2...v1.13.3)
+## [1.13.3](https://github.com/nh917/double-take/compare/v1.13.2...v1.13.3)
 
 vAdd telegram notifications
 * bug fixes
 
-## [1.13.2](https://github.com/NH917/double-take/compare/v1.13.1...v1.13.2)
+## [1.13.2](https://github.com/nh917/double-take/compare/v1.13.1...v1.13.2)
 
 * Migrate from vue to vite
 * add ai.server detector

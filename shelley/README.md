@@ -4,7 +4,7 @@ Shelley is a web-based coding agent that can run inside Home Assistant OS as an 
 
 This add-on wraps the upstream project:
 
-- https://github.com/NH917/shelley
+- https://github.com/nh917/shelley
 
 ## Features
 

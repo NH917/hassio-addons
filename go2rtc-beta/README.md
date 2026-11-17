@@ -1,4 +1,4 @@
-[![go2rtc](https://badgen.net/github/release/NH917/go2rtc)](https://github.com/NH917/go2rtc) [![go2rtc](https://badgen.net/github/stars/NH917/go2rtc)](https://github.com/NH917/go2rtc/stargazers)
+[![go2rtc](https://badgen.net/github/release/nh917/go2rtc)](https://github.com/nh917/go2rtc) [![go2rtc](https://badgen.net/github/stars/nh917/go2rtc)](https://github.com/nh917/go2rtc/stargazers)
 
 ![amd64][amd64-shield]
 ![arm64][arm64-shield]
@@ -6,7 +6,7 @@
 
 # go2rtc Beta
 
-Ultimate camera streaming application with support for RTSP, WebRTC, HomeKit, FFmpeg, RTMP, and much more. This is the **beta** build from the [`beta` branch](https://github.com/NH917/go2rtc/tree/beta) of [NH917/go2rtc](https://github.com/NH917/go2rtc).
+Ultimate camera streaming application with support for RTSP, WebRTC, HomeKit, FFmpeg, RTMP, and much more. This is the **beta** build from the [`beta` branch](https://github.com/nh917/go2rtc/tree/beta) of [nh917/go2rtc](https://github.com/nh917/go2rtc).
 
 ## Features
 
@@ -28,7 +28,7 @@ Ultimate camera streaming application with support for RTSP, WebRTC, HomeKit, FF
 
 After installation, a default `go2rtc.yaml` config file will be created at `/config/go2rtc.yaml`. Edit it to add your camera streams.
 
-[Documentation](https://github.com/NH917/go2rtc)
+[Documentation](https://github.com/nh917/go2rtc)
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [arm64-shield]: https://img.shields.io/badge/arm64-yes-green.svg

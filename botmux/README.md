@@ -1,6 +1,6 @@
 # BotMux
 
-[BotMux](https://github.com/NH917/botmux) is a web panel for managing Telegram bots. With the Home Assistant OS add-on, it automatically sets up this chain:
+[BotMux](https://github.com/nh917/botmux) is a web panel for managing Telegram bots. With the Home Assistant OS add-on, it automatically sets up this chain:
 
 ```text
 Telegram ←long poll→ BotMux ←long poll (/tgapi)→ Home Assistant
@@ -80,5 +80,5 @@ BotMux serves absolute paths (`/api/...`). The add-on runs **nginx** on `port` (
 
 ## Links
 
-- Upstream: https://github.com/NH917/botmux
-- Docker image: `ghcr.io/NH917/botmux`
+- Upstream: https://github.com/nh917/botmux
+- Docker image: `ghcr.io/nh917/botmux`

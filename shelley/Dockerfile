@@ -25,7 +25,7 @@ RUN set -eux; \
       aarch64) SHELLEY_ARCH="arm64" ;; \
       *) echo "Unsupported architecture: ${BUILD_ARCH}" && exit 1 ;; \
     esac; \
-    curl -fsSL -o /usr/bin/shelley "https://github.com/NH917/shelley/releases/download/${SHELLEY_VERSION}/shelley_linux_${SHELLEY_ARCH}"; \
+    curl -fsSL -o /usr/bin/shelley "https://github.com/nh917/shelley/releases/download/${SHELLEY_VERSION}/shelley_linux_${SHELLEY_ARCH}"; \
     chmod +x /usr/bin/shelley
 
 ADD --link https://github.com/hassio-addons/bashio/archive/v0.16.3.tar.gz /tmp/bashio.tar.gz

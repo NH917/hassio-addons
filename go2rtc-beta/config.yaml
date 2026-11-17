@@ -1,7 +1,7 @@
 # https://github.com/AlexxIT/builder/blob/master/builder.sh
 name: go2rtc (beta)
 description: The latest beta version
-url: https://github.com/NH917/go2rtc
+url: https://github.com/nh917/go2rtc
 image: ghcr.io/nh917/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 

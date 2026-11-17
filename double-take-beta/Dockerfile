@@ -1,7 +1,7 @@
 # syntax = docker/dockerfile:1.4
 ARG BUILD_FROM
 
-FROM NH917/double-take:1.13.11.9rc2
+FROM nh917/double-take:1.13.11.9rc2
 
 ARG S6_OVERLAY_VERSION=3.1.6.2
 ARG BUILD_ARCH=amd64
